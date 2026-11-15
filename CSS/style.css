@@ -199,10 +199,24 @@ footer p {
 footer a {
     color: #F5F5F5;
     text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.footer-enlaces a:hover {
+    color: #E5242A;
+    transform: scale(1.15);
 }
 
 .footer-redes a {
     font-size: 24px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.footer-redes a:hover {
+    color: #E5242A;
+    transform: scale(1.20);
 }
 
 /* ---------- Páginas de selección y catálogos ---------- */
